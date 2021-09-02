@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+#navbar{
+    background-color: rgb(245, 14, 14);
+    padding: 16px 20px;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+
+#navbar li{
+    list-style: none;
+    /* padding: 0px 8px; */
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    color:white;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+#navbar ul a:hover{
+    color: black;
+}
+
+#logo{
+    display: flex;
+    height: 30px;
+    width: 150px;
+    margin: -3px 6px;
+    color: white;
+
+}
+
+#logo img{
+    height: 30px;
+}
+
+#logo h3{
+    padding: 6px 6px;
+    align-items: center;
+}
+
+#introsection {
+    height: 350px;
+    background-color:black;
+    background: center/cover no-repeat url("/static/bg1.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    font-family: 'Playball', cursive;
+}
+
+#introsection div {
+    font-size: 35px;
+}
+
+#introsection div.small {
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+#missionsection {
+
+    height: 300px;
+
+}
+
+#missionsection h2 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Baloo Thambi 2', cursive;
+
+}
+
+#missionsection h3 {
+    text-align: center;
+    font-family: 'Baloo Thambi 2', cursive;
+
+}
+
+#missionsection div.card {
+
+    display: inline-block;
+    height: 200px;
+    width: 28%;
+    margin: 20px 22px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #f78295;
+    font-family: 'Baloo Thambi 2', cursive;
+
+}
+
+div.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+div.card-img img {
+    height: inherit;
+    height: 85px;
+    width: 100px;
+    margin: 27px 15px;
+}
+
+div.content {
+    font-size: 18px;
+    padding: 6px 7px;
+}
+
+#sponsersection h2{
+                     text-align: center;
+                     margin-top: 10px;
+}
+
+#sponsersection {
+    height: 315px;
+    padding-top: 10px;
+    font-family: 'Baloo Thambi 2', cursive;
+    background-color: #e2bcbc
+
+}
+
+#sponser{
+               /* display: inline-block; */
+               height: 215px;
+               max-width:1000px;
+               margin: 15px auto;
+               padding: 5px 48px;
+               
+}
+
+#sponser img{
+              height: 78%;
+              margin: 20px;
+}
+
+#footer {
+    height: 65px;
+    background-color:black;
+    font-family: 'Playball', cursive;
+    /* font-family: 'Baloo Thambi 2', cursive; */
+
+    color:white;
+    font-size: 27px;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+}
+

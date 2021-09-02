@@ -1,0 +1,16 @@
+{
+  "name": "mit-dance-website",
+  "version": "1.0.0",
+  "description": "This is Mit's dance website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mit",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
